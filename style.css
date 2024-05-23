@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("./Fonts/Roboto/Roboto-Thin.ttf");
+}
+.container{
+    width: 100%;
+    height: 42px;
+    padding: 0px 100px;
+}
+.head{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(173, 201, 166, 1);
+}
+.head p{
+    display: flex;
+    gap: 30px;
+    font-family: Roboto;
+    font-weight: 900;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(21, 60, 60, 1);
+    display: flex;
+    align-items: center;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 480px;
+    height: 42px;
+    display: flex;
+    gap: 100px;
+}
+.nav-bar-links{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-links ul{
+    display: flex;
+    gap: 50px;
+}
+.nav-bar-links a{
+    color: #fff;
+    font-family: Roboto;
+}
+.nav-bar button{
+    width: 110px;
+    height: 40px;
+    color: #fff;
+    font-family: Roboto;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(132, 161, 125, 1);
+}
+
+.section-container{
+    padding: 100px 100px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.align-ui{
+    width: 280px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 247, 242, 1);
+    color: rgba(21, 60, 60, 1);
+    font-family: Roboto;
+}
+.align-ui-text{
+    width: 560px;
+    height: 400px;
+    color:rgba(23, 36, 38, 1);
+    font-family: Roboto;
+}
+.align-ui-text h1{
+    font-size: 65px;
+    padding: 15px;
+}
+.align-ui-text h2{
+    width: 420px;
+    height: 80px;
+    font-size: 62px;
+    text-align: center;
+    margin-left: 70px;
+    color:rgba(23, 36, 38, 1);
+
+}
+.align-ui-text h3{
+    width: 240px;
+    height: 80px;
+    font-size: 62px;
+    margin-left: 170px;
+    padding: 15px;
+    color:rgba(23, 36, 38, 1);
+}
+.align-ui-img{
+    position: relative;
+    left: 175px;
+    bottom: 3px;
+}
+
+.landing-pages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descover-pages{
+    width: 620px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.landing-page{
+    width: 170px;
+    height: 48px;
+    background-color: rgba(243, 247, 242, 1);
+    color: rgba(21, 60, 60, 1);
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.descover-text{
+    width: 100%;
+    height: 70%;
+}
+.descover-text h1{
+    font-size: 56px;
+    text-align: center;
+    font-family: Roboto;
+    color: rgba(21, 60, 60, 1);
+}
+.enveloping{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
